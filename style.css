@@ -1,0 +1,58 @@
+/* i have added a background for the whole body and set it to cover*/
+body{
+   background-image: url(bsk.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+/* nav bar with set heigt and width*/
+nav{
+    width: 1300px;
+    height: 100px;
+   background-color: rgb(174, 176, 192);
+   border-radius: 10px;   
+
+}
+/*The list in the nav bar displayed flex and gap to space */
+nav ul{
+    display: flex;
+    margin-left: 800px;
+    gap: 20px;
+    list-style: none;
+    margin-top: -8%;
+    padding-top: 2%;
+}
+
+p{
+
+    width: 300%;
+    height: 400px;
+    margin-left:-2%;
+    margin-top: 10%;
+color: red;
+
+}
+.one{
+    display: flex;
+    height:300px;
+    width: 1300px;
+}
+.services{
+    margin-left: 300px;
+
+}
+.projects{
+    margin-top: 25%;
+    
+    background-color: blue;
+}
+.Contact{
+    height: 200px;
+    width: 300px;
+    background-color: brown;
+     margin-left: 550px;
+}
+/* i have used the font size and font style italic to dipslay the word hello*/
+#header{
+    font-size: 500%;
+    font-style: italic;
+}
